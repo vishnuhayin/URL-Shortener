@@ -1,0 +1,18 @@
+2022-10-12 00:08:33,362 INFO URLShortenApp Opened
+2022-10-12 00:08:37,162 INFO URLShortenApp Closed
+2022-10-12 03:28:27,247 INFO URLShortenApp Opened
+2022-10-12 03:28:51,495 INFO 
+saved data with ID >> 6666
+2022-10-12 03:28:54,319 ERROR exception occured invalid command name ".!entry"
+Traceback (most recent call last):
+  File "/home/abhivishnu/Allianz/URL Shortner/URLShorten_window_main.py", line 34, in saveData
+    logging.info("Data inserted to user_details table" + str(my_entry.get()))
+  File "/home/abhivishnu/anaconda3/lib/python3.9/tkinter/__init__.py", line 3043, in get
+    return self.tk.call(self._w, 'get')
+_tkinter.TclError: invalid command name ".!entry"
+2022-10-12 03:28:54,326 INFO URLShortenApp Closed
+2022-10-17 17:24:45,932 INFO URLShortenApp Opened
+2022-10-17 17:26:00,881 INFO URLShortenApp Closed
+2022-10-18 09:07:17,328 INFO URLShortenApp Opened
+2022-10-18 09:07:56,904 INFO 
+saved data with ID >> 11
